@@ -22,7 +22,7 @@ function Contact()
         {
          inputElement.map( elem => { 
        return  <Input value={elem.value} label={elem.label} />
-        })
+        }) 
     }
     </div>
 }
