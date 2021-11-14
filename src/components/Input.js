@@ -1,9 +1,10 @@
 
 
-function Input()
+function Input(props)
 {
     return <div>
-        <input type="text" name="test" value="" />
+        <label>  {props.label} :</label>
+        <input type={props.type || 'text'} name={props.name} value={props.value} />
     </div>
 }
 
